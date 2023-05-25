@@ -47,7 +47,7 @@ body{
 }
 
 .buttons {
-  display: grid;
+  display: table;
   grid-template-columns: auto auto auto;
   grid-template-rows: 80px 80px;
   background-color: none;
