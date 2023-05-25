@@ -1,7 +1,7 @@
 
 
 body{
-  background-color: white;
+  background-color: rgb(21, 5, 252);
 
 }
 
@@ -15,7 +15,7 @@ scroll-behavior: smooth;
 }
 
 nav{
-  display: flex;
+  display: inline;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
@@ -70,7 +70,7 @@ button:hover{
   color: red;
 }
 .row{
-  display: flex;
+  display: list-item;
   justify-content: space-between;
   flex-wrap: wrap;
 
@@ -98,7 +98,7 @@ padding-top: 10px;
 }
 
 .grid-container0{
-  display: grid;
+  display: table;
   grid-template-columns: 500px 500px 500px;
   grid-template-rows: 275px 275px;
   background-color: white;
